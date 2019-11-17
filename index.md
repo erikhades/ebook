@@ -21,6 +21,7 @@ I am neither affilated or endorsed by any organisation or entity to promote thei
 * Chapter 1:  Images
 * Chapter 2:  Javascript
 
+
 * * *
 
 # Introduction
