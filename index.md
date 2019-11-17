@@ -13,10 +13,10 @@ This book is targeted to professional senior developers wishing to improve the p
 Whilst this book is targeted at both beginners and senior developers, a basic understanding of JavaScript fundamentals is assumed. I will try to provide links wherever possible for advance topics.
 ## Note To Readers
 I am neither affilated or endorsed by any organisation or entity to promote their services or products. Their may be better alternatives available that i might not know, i always welcome feedbacks and suggestions. I intend to publish all my books for free digitally, surely i would appreciate if you help me buy coffee.
-***
+* * *
 # Table Of Contents
 * Introduction
 * Chapter 1:  Images
 * Chapter 2:  Javascript
-***
+* * *
 # Introduction
