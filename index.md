@@ -49,7 +49,9 @@ Larger file size have more information but that information may simply be noises
 
 **Remember: Higher file size doesn't always imply higher image quality.**
 ### Raster vs Vector Graphics
-**Raster Graphics** represent images by encoding the values of each pixel within a rectangular grid of pixels. These are used where photorealism is necessary. Example: JPEG or PNG
+<img src="images/vector_raster.svg" width="250">
+
+**Raster(or Bitmap) Graphics** represent images by encoding the values of each pixel within a rectangular grid of pixels. These are used where photorealism is necessary. Example: JPEG or PNG
 
 **Vector Graphics** represent images made using points, lines and polygons offering high resolution and zoom independency. Example: [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
 
@@ -58,9 +60,13 @@ JPEG originated in 1992 and trace its footsteps in phones, digital cameras and w
 #### JPEG Compression Modes:
 **Baseline[Sequential] JPEG**:  Users see the top of image with more of it revealed as the image loads.
 
-**Progressive JPEG[PJPEG]**:  Progressive JPEGs divide given image into number of scans. First scan showing blurry or low quality image. Each scan of an image progressively adds an increasing level of detail.
+<img src="images/baseline.jpg" width="750">
 
-**Lossless**: It can be achieved by optimizing an image's [Huffman tables](https://en.wikipedia.org/wiki/Huffman_coding) or removing [EXIF data](https://en.wikipedia.org/wiki/Exif) added by digital cameras. [Jpegoptim](https://github.com/tjko/jpegoptim) and [Mozjpeg](https://github.com/mozilla/mozjpeg) are few tools which support lossless JPEG compression.
+**Progressive JPEG**:  Progressive JPEGs or PJPEGs divide given image into number of scans. First scan showing blurry or low quality image. Each scan of an image progressively adds an increasing level of detail.
+
+<img src="images/progressive.jpg" width="750">
+
+**Lossless**: It can be achieved by optimizing an image's [Huffman tables](https://en.wikipedia.org/wiki/Huffman_coding) or removing [EXIF data](https://en.wikipedia.org/wiki/Exif) added by digital cameras. [Jpegoptim](https://github.com/tjko/jpegoptim), [ImgBot](https://github.com/apps/imgbot) and [Mozjpeg](https://github.com/mozilla/mozjpeg) are few tools which support lossless JPEG compression.
 ####  Progressive JPEGs
 Currently these are widely being used in the industry. So i decided to cover it specially.
 PJPEGs allows users to see roughly what an image is when only part of the file is received, allowing them to make a call on whether to wait for it to fully load.
